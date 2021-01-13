@@ -197,7 +197,7 @@ unsigned long Graph::shortestPath (string startLabel, string endLabel) {
 	cout << endl << "-- Using Dijsktra --" << endl;
 	cout << "Minimum distances from vertex: " << startLabel << endl << endl;
 	for (int i = 0; i < V; i++) {
-		cout << "Vertex: " << main_list[i].vertex << ", Shortest Distance to A: " << distances[i] << endl;
+		cout << "Vertex: " << main_list[i].vertex << ", Shortest Distance to " << startLabel << ": " << distances[i] << endl;
 	}
 	
 	// Print path from startLabel to endLabel
